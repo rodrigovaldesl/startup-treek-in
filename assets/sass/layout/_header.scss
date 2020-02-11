@@ -1,0 +1,52 @@
+header{
+    padding-top: 5rem;
+    h1{
+        font-family: $primary-font;
+        font-size: $xxxx-large;
+        font-weight: $fw-bold;
+        color: $raisingblack;
+        line-height : 4.2rem;
+        margin: 0 0 1.25rem 0;
+    }
+
+    p{
+        font-family: $secondary-font;
+        font-size: $medium;
+        font-weight: $fw-regular;
+        color: $raisingblack;
+        line-height : 2.2rem;
+        margin: 0;
+    }
+}
+
+#bg-hero{
+    background-image: url(../img/bg-hero.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 170%;
+    height: 26.9rem;
+    width: 100vw;
+}
+
+@media (min-width: 768px) {
+    header{
+        // padding-top: 5rem;
+        background-image: url(../img/bg-hero.svg);
+        background-color: palevioletred;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 900px;
+        position: relative;
+    }
+
+    .header__texto{
+        position: absolute;
+        height: auto;
+        width: 400px;
+    }
+    
+    #bg-hero{
+        display: none;
+    }
+}

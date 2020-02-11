@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 48 40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Logo</title>
+<desc>Created with Sketch.</desc>
+<defs>
+<polygon id="b" points="29 12.62 19.205 12.62 19.205 26.216 19.205 40 9.8427 40 9.8427 12.62 0 12.62 0 4 29 4"/>
+<path id="a" d="m35 13v-9h1v9h-1zm0-11v-2h1v2h-1zm13 11h-1.7483v-4.9492c0-0.94916-0.16887-1.6384-0.50662-2.0678s-0.85099-0.64407-1.5397-0.64407c-0.35762 0-0.71523 0.059321-1.0728 0.17797s-0.69536 0.27966-1.0132 0.48305-0.59603 0.44633-0.83444 0.72881-0.41722 0.59322-0.53642 0.9322v5.339h-1.7483v-8.8475h1.5894v1.8983c0.4106-0.62147 1.0033-1.1186 1.7781-1.4915s1.6192-0.55932 2.5331-0.55932c0.59603 0 1.0927 0.093219 1.4901 0.27966s0.71523 0.44633 0.95364 0.77966c0.23841 0.33334 0.40728 0.72599 0.50662 1.178 0.099338 0.45198 0.14901 0.9435 0.14901 1.4746v5.2881z"/>
+</defs>
+<g fill="none" fill-rule="evenodd">
+<g transform="translate(-136 -45)">
+<g transform="translate(0 2)">
+<g transform="translate(136 43)">
+<use fill="#FFFFFF" xlink:href="#b"/>
+<use fill="#011627" xlink:href="#b"/>
+<use fill="#FFFFFF" xlink:href="#a"/>
+<use fill="#000000" xlink:href="#a"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,33 @@
+.mi__grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+} 
+
+.mi__flex{
+    display: flex;
+}
+
+.mi__container {
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .mi__container {
+    padding-right: 90px;
+    padding-left: 90px;
+  }
+}
+// @media (min-width: 992px) {
+//   .mi__container {
+//     width: 970px;
+//   }
+// }
+// @media (min-width: 1200px) {
+//   .mi__container {
+//     width: 1170px;
+//   }
+// }

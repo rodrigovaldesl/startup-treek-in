@@ -1,0 +1,46 @@
+#footer{
+    background-color: $raisingblack;
+    padding: 40px 0;
+
+    .footer__datos{
+        font-family: $primary-font;
+        font-size: $x-small;
+        font-weight: $fw-regular;
+        color: $white;
+    }
+
+    .footer__datos-texto{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    p{
+        text-align: center;
+        margin: 30px 0 0 0;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #footer{
+        padding: 60px 0;
+
+        .footer__datos{
+            display: flex;
+            justify-content: space-between;
+            font-size: $small;
+        }
+
+        a{
+            margin: 0 40px 0 0;
+        }
+
+        p{
+            margin: 0;
+        }  
+    }
+}
