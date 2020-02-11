@@ -103,17 +103,15 @@ padding: 5rem 0;
         padding:0 0 5rem 0;
     }
 
-    .main__contenido{
-    }
-
     .main__contenido-imagen{
-
+        margin-right: 2rem;
     }
 
     .main__contenido-texto{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-left: 2rem;
     }
 
     // LAYOUT PRECIOS
