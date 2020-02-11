@@ -266,6 +266,17 @@ header {
 
   #bg-hero {
     display: none; } }
+.animation-element {
+  opacity: 0;
+  transition: all 500ms linear;
+  transform: translate3d(0px, 20px, 0px);
+  transition-delay: 0.2s;
+  position: relative; }
+
+.animation-element.in-view {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px); }
+
 main {
   padding: 5rem 0; }
   main h2, main h3 {
@@ -354,7 +365,10 @@ main {
     margin-left: 2rem; }
 
   .main__contenido-precios div:first-child {
-    margin-right: 2rem; } }
+    margin-right: 2rem; }
+
+  .none {
+    display: none; } }
 #footer {
   background-color: #221D23;
   padding: 40px 0; }

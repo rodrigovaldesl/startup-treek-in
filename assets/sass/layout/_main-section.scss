@@ -1,3 +1,17 @@
+// ANIMACION
+.animation-element{
+    opacity: 0;
+    transition: all 500ms linear;
+    transform: translate3d(0px, 20px, 0px);
+    transition-delay: 0.2s;
+    position: relative;
+}
+
+.animation-element.in-view{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
 // MAIN LAYOUT
 main{
 padding: 5rem 0;
@@ -125,5 +139,9 @@ padding: 5rem 0;
 
     .main__contenido-precios div:first-child{
         margin-right: 2rem;
+    }
+
+    .none{
+        display: none;
     }
 }
