@@ -90,3 +90,41 @@ padding: 5.5rem 0;
     }
   
   }
+
+//   MEDIA QUERY
+  @media (min-width: 768px) {
+
+    // MAIN LAYOUT
+    main{
+
+    }
+
+    .main__contenido{
+        padding: 5rem 0;
+        display: flex;
+
+    }
+
+    .main__contenido-imagen{
+        width: 50%;
+        margin: 0 2.5rem 0 0;
+    }
+
+    .main__contenido-texto{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 0 0 2.5rem;
+    }
+
+    // LAYOUT PRECIOS
+    .mi__card{
+        margin: 4rem 0;
+
+    // &~div{
+    //     margin-left: 2.5rem;
+    // }
+    }
+
+}

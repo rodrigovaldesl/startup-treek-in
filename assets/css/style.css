@@ -16,7 +16,10 @@
 @media (min-width: 768px) {
   .mi__container {
     padding-right: 90px;
-    padding-left: 90px; } }
+    padding-left: 90px; }
+
+  .mi__padding-md {
+    padding: 0 5.5rem; } }
 body {
   margin: 0;
   padding: 0;
@@ -469,6 +472,24 @@ main {
     line-height: 2rem;
     margin: 0; }
 
+@media (min-width: 768px) {
+  .main__contenido {
+    padding: 5rem 0;
+    display: flex; }
+
+  .main__contenido-imagen {
+    width: 50%;
+    margin: 0 2.5rem 0 0; }
+
+  .main__contenido-texto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 2.5rem; }
+
+  .mi__card {
+    margin: 4rem 0; } }
 #footer {
   background-color: #221D23;
   padding: 40px 0; }
