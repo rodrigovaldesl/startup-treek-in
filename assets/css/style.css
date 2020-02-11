@@ -19,7 +19,7 @@
     padding-left: 90px; }
 
   .mi__padding-md {
-    padding: 0 5.5rem; } }
+    padding: 0 8rem; } }
 body {
   margin: 0;
   padding: 0;
@@ -394,7 +394,6 @@ header {
 @media (min-width: 768px) {
   header {
     background-image: url(../img/bg-hero.svg);
-    background-color: palevioletred;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: right;
@@ -409,7 +408,7 @@ header {
   #bg-hero {
     display: none; } }
 main {
-  padding: 5.5rem 0; }
+  padding: 5rem 0; }
   main h2, main h3 {
     font-family: "Raleway", sans-serif;
     color: #221D23;
@@ -432,11 +431,15 @@ main {
   main img {
     margin: 4.4rem 0; }
 
+.bg__precio {
+  background-image: url(../img/bg-price.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  height: 100px; }
+
 #precios {
   background-color: #333745;
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 170%;
   height: auto;
   width: 100vw; }
   #precios h2 {
@@ -473,23 +476,16 @@ main {
     margin: 0; }
 
 @media (min-width: 768px) {
-  .main__contenido {
-    padding: 5rem 0;
-    display: flex; }
-
-  .main__contenido-imagen {
-    width: 50%;
-    margin: 0 2.5rem 0 0; }
+  main {
+    padding: 0 0 5rem 0; }
 
   .main__contenido-texto {
-    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 0 0 0 2.5rem; }
+    justify-content: center; }
 
-  .mi__card {
-    margin: 4rem 0; } }
+  .bg__precio {
+    height: 250px; } }
 #footer {
   background-color: #221D23;
   padding: 40px 0; }

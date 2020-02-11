@@ -1,6 +1,6 @@
 // MAIN LAYOUT
 main{
-padding: 5.5rem 0;
+padding: 5rem 0;
 
     h2, h3{
         font-family: $primary-font;
@@ -36,12 +36,16 @@ padding: 5.5rem 0;
 }
 
 // LAYOUT PRECIOS
+.bg__precio{
+    background-image: url(../img/bg-price.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    height: 100px;
+}
+
 #precios{
     background-color: $onyx;
-    // background-image: url(../img/bg-price.svg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 170%;
     height: auto;
     width: 100vw;
 
@@ -96,35 +100,24 @@ padding: 5.5rem 0;
 
     // MAIN LAYOUT
     main{
-
+        padding:0 0 5rem 0;
     }
 
     .main__contenido{
-        padding: 5rem 0;
-        display: flex;
-
     }
 
     .main__contenido-imagen{
-        width: 50%;
-        margin: 0 2.5rem 0 0;
+
     }
 
     .main__contenido-texto{
-        width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 0 0 0 2.5rem;
     }
 
     // LAYOUT PRECIOS
-    .mi__card{
-        margin: 4rem 0;
-
-    // &~div{
-    //     margin-left: 2.5rem;
-    // }
+    .bg__precio{
+        height: 250px;
     }
-
 }
