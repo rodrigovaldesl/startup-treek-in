@@ -4,47 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- JS NAVBAR -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- TITULO -->
+    <!-- Titutlo -->
     <title>Startup Treek-in - Rodrigo Valdes</title>
 </head>
 
 <body class="mi__grid">
-
     <!-- NAV -->
+    <nav class="topnav" id="myTopnav">
 
-    <!-- <nav class="topnav" id="myTopnav">
-        <div class="nav__menu mi__container">
-
-            <div class="nav__menu-mobile">
-                <a href="#"><img class="nav__menu-logo" src="assets/img/Logo.svg" alt="Home"></a>
+            <div class="topnav__mobile">
+                <a href="#home"> <img class="topnav__logo" src="assets/img/Logo.svg" alt=""></a>
                 <a href="#news">Acerca de</a>
                 <a href="#contact">Características</a>
                 <a href="#about">Precios</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
 
-            <div class="nav__menu-desktop">
-                <a href="#">Iniciar Sesión</a>
-                <button class="mi__boton-navbar">Registrate</button>
+            <div class="topnav__desktop">
+                <a href="#news">Iniciar Sesión</a>
+                <a href="#news">Acerca de</a>
             </div>
-
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
-    </nav> -->
-
-    <nav class="topnav" id="myTopnav">
-        <a href="#home" class="active">Home</a>
-        <a href="#news">Acerca de</a>
-        <a href="#contact">Características</a>
-        <a href="#about">Precios</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
+  
     </nav>
 
 
@@ -66,12 +52,13 @@
     <section id="bg-hero"></section>
     <!-- HEADER END -->
 
-    <!-- MAIN --> 
+    <!-- MAIN -->
     <main id="main" class="mi__container col-12">
         <h2>Características</h2>
 
         <div class="main__contenido mi__grid mi__padding-md">
-            <div class="animation-element main__contenido-imagen col-12 col-md-6"><img src="assets/img/bar-graph.svg" alt=""></div>
+            <div class="animation-element main__contenido-imagen col-12 col-md-6"><img src="assets/img/bar-graph.svg"
+                    alt=""></div>
 
             <div class="main__contenido-texto col-12 col-md-6">
                 <h3>Estadísticas de tu progreso</h3>
@@ -144,7 +131,6 @@
     </footer>
     <!-- FOOTER -->
 
-    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -163,15 +149,15 @@
                 x.className = "topnav";
             }
         }
-        
-    </script>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
     </script>
 
-     <!-- Animación -->
-     <script src="assets/js/animate.js">
-     </script>
+    <!-- Animación -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+        </script>
+
+    <script src="assets/js/animate.js">
+    </script>
 </body>
 
 </html>
