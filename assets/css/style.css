@@ -485,7 +485,13 @@ main {
     justify-content: center; }
 
   .bg__precio {
-    height: 250px; } }
+    height: 250px; }
+
+  .main__contenido-precios div:last-child {
+    margin-left: 2rem; }
+
+  .main__contenido-precios div:first-child {
+    margin-right: 2rem; } }
 #footer {
   background-color: #221D23;
   padding: 40px 0; }
