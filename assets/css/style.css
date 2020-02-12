@@ -36,7 +36,8 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #fff; }
+  background-color: #fff;
+  padding: 24px 0; }
   .topnav__logo {
     width: auto;
     height: 40px; }
@@ -63,7 +64,8 @@ body {
     height: 6rem;
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    padding: 0; }
     .topnav__mobile {
       margin-left: 5.6rem;
       display: flex;
@@ -85,7 +87,10 @@ body {
     display: block; }
 
   .topnav.responsive {
-    position: relative; }
+    position: relative;
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2); }
 
   .topnav.responsive .icon {
     position: absolute;
@@ -95,7 +100,9 @@ body {
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: left; } }
+    text-align: left; }
+    .topnav.responsive a:not(:first-child) {
+      padding: 1.5rem 0; } }
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -367,9 +374,9 @@ main {
     margin: 0;
     min-height: 160px; }
   .mi__card:hover {
-    -webkit-box-shadow: 5px 5px 19px 0px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 5px 5px 19px 0px rgba(0, 0, 0, 0.4);
-    box-shadow: 5px 5px 19px 0px rgba(0, 0, 0, 0.4); }
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.5); }
 
 @media (min-width: 768px) {
   main {
