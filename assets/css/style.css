@@ -85,6 +85,8 @@ body {
   .topnav a.icon {
     float: right;
     display: block; }
+    .topnav a.icon:hover {
+      color: black; }
 
   .topnav.responsive {
     position: relative;
