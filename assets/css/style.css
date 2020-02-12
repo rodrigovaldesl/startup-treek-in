@@ -83,22 +83,25 @@ body {
     text-align: left; } }
 @media (min-width: 768px) {
   .topnav a {
-    padding: 50px 0; }
+    padding: 2rem 0; }
 
   .topnav__desktop {
     display: block;
-    margin-right: 90px; }
+    margin-right: 5.6rem; }
     .topnav__desktopa:first-child {
-      margin-right: 30px; }
+      margin-right: 1.9rem; }
 
   .topnav__mobile {
-    margin-left: 90px; }
+    margin-left: 5.6rem;
+    display: flex;
+    align-items: center; }
     .topnav__mobile a {
-      margin-right: 30px; }
+      margin-right: 1.9rem; }
 
   .topnav {
     display: flex;
-    justify-content: space-between; } }
+    justify-content: space-between;
+    align-items: center; } }
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -249,22 +252,20 @@ body {
 
   .col-lg-1 {
     grid-column: span 1; } }
-header {
-  padding-top: 50px; }
-  header h1 {
-    font-family: "Raleway", sans-serif;
-    font-size: 45px;
-    font-weight: 700;
-    color: #221D23;
-    line-height: 4.2rem;
-    margin: 0 0 1.25rem 0; }
-  header p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #221D23;
-    line-height: 2.2rem;
-    margin: 0; }
+header h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #221D23;
+  line-height: 4.2rem;
+  margin: 0 0 1.25rem 0; }
+header p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #221D23;
+  line-height: 2.2rem;
+  margin: 0; }
 
 #bg-hero {
   background-image: url(../img/bg-hero.svg);
@@ -286,7 +287,7 @@ header {
   .header__texto {
     position: absolute;
     height: auto;
-    width: 400px; }
+    width: 25rem; }
 
   #bg-hero {
     display: none; } }

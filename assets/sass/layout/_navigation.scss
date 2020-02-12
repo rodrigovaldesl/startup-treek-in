@@ -62,29 +62,32 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
   .topnav a{
-  padding: 50px 0;
+  padding: 2rem 0;
   }
 
   .topnav__desktop{
     display: block;
-    margin-right: 90px;
+    margin-right: 5.6rem;
 
     &a:first-child{
-      margin-right: 30px;
+      margin-right: 1.9rem;
     }
 
   }
 
   .topnav__mobile{
-    margin-left: 90px;
+    margin-left: 5.6rem;
+    display: flex;
+    align-items: center;
 
     a{
-      margin-right: 30px;
+      margin-right: 1.9rem;
     }
   }
 
   .topnav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
  }
