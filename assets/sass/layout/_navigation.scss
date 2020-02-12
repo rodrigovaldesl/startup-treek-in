@@ -1,40 +1,66 @@
+// Navbar
 .topnav {
   overflow: hidden;
   background-color: $white;
+
+  &__logo{
+    width: auto;
+  height: 40px;}
+
+  &__desktop{display: none;}
+
+  &__mobile{margin: 0 40px;}
+
+  & a{
+    float: left;
+    display: block;
+    color: $raisingblack;
+    text-align: center;
+    text-decoration: none;
+    font-size: $small;
+    font-family: $secondary-font;
+    
+      &:hover{
+        color: $nickel;
+        transition: width 2s;
+        }
+        
+      &.icon{display: none;}
+
+    }
 }
 
-.topnav__logo{
-  width: auto;
-  height: 40px;
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  .topnav{
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__mobile{
+    margin-left: 5.6rem;
+    display: flex;
+    align-items: center;
+    
+      a{
+        margin-right: 1.9rem;
+      }
+    }
+
+    &__desktop{
+      display: flex;
+      margin-right: 5.6rem;
+      align-items: center;
+  
+      &a:first-child{
+        margin-right: 1.9rem;
+      }
+    }
+  }
 }
 
-.topnav a {
-  float: left;
-  display: block;
-  color: $raisingblack;
-  text-align: center;
-  text-decoration: none;
-  font-size: $small;
-  font-family: $secondary-font;
-}
-
-.topnav a:hover {
-  color: $nickel;
-  transition: width 2s;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-.topnav__desktop{
-  display: none;
-}
-
-.topnav__mobile{
-  margin: 0 40px;
-}
-
+// Responsive Navbar
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child){
     display: none;
@@ -43,9 +69,6 @@
     float: right;
     display: block;
   }
-}
-
-@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -58,36 +81,3 @@
     text-align: left;
   }
 }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
-  .topnav a{
-  padding: 2rem 0;
-  }
-
-  .topnav__desktop{
-    display: block;
-    margin-right: 5.6rem;
-
-    &a:first-child{
-      margin-right: 1.9rem;
-    }
-
-  }
-
-  .topnav__mobile{
-    margin-left: 5.6rem;
-    display: flex;
-    align-items: center;
-
-    a{
-      margin-right: 1.9rem;
-    }
-  }
-
-  .topnav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
- }

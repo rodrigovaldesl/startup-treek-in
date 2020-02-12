@@ -1,5 +1,5 @@
 header{
-    // padding-top: 5rem 0;
+    margin-top: 2rem;
     
     h1{
         font-family: $primary-font;
@@ -31,20 +31,21 @@ header{
 
 @media (min-width: 768px) {
     header{
+        margin-top: 3rem;
         background-image: url(../img/bg-hero.svg);
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: right;
         height: 900px;
         position: relative;
+
+        .header__texto{
+            position: absolute;
+            height: auto;
+            width: 25rem;            
+        }
     }
 
-    .header__texto{
-        position: absolute;
-        height: auto;
-        width: 25rem;
-    }
-    
     #bg-hero{
         display: none;
     }

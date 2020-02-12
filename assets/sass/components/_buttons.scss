@@ -1,4 +1,4 @@
-.mi__boton{
+.mi__boton-large{
     width: 100%;
     background-color: $ballblue;
     color: $white;
@@ -7,14 +7,36 @@
     font-family: $secondary-font;
     font-size: $medium;
     font-weight: $fw-regular;
+
+        &:hover{
+            background-color: $middleblue;
+        }
+
+        &:focus{
+            background-color: $lavendergray;
+        }
 }
 
-.mi__boton-navbar{
+.mi__boton-regular{
     background-color: $ballblue;
-    color: $white;
     border: none;
-    padding: 10px 32px;
+    padding: 5px 22px;
     font-family: $secondary-font;
-    font-size: $medium;
+    font-size: $small;
     font-weight: $fw-regular;
+
+    & a{
+        color: $white;
+    }
+
+    &:hover{
+        background-color: $middleblue;
+        & a{
+            color: $white;
+        }
+    }
+
+    &:focus{
+        background-color: $lavendergray;
+    }
 }
